@@ -329,7 +329,7 @@ Pr-ice List:
 Day-->200 Rs
 Week-->900 Rs
 Month-->1600 Rs
-@dakkucheats
+
 '''
     bot.reply_to(message, response)
 
