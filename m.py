@@ -246,9 +246,9 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
         else:
-            response = "Usage :- /bgmi <target> <port> <time>\n@rolexvip"  # Updated command syntax
+            response = "Usage :- /bgmi <target> <port> <time>\nrolexvip"  # Updated command syntax
     else:
-        response = "You Are Not Authorized To Use This Command.\n@rolexvip"
+        response = "You Are Not Authorized To Use This Command.\nrolexvip"
 
     bot.reply_to(message, response)
 
@@ -285,7 +285,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- @rolexvip
+ ROLEX VIP DDOS
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -312,7 +312,7 @@ def welcome_rules(message):
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot. 
 3. We Daily Checks The Logs So Follow these rules to avoid Ban!!
-@dakkucheats'''
+ROLEX VIP'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
@@ -344,7 +344,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-@dakkucheats
+@ROLEXVIP
 '''
     bot.reply_to(message, response)
 
