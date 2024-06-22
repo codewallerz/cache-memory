@@ -236,8 +236,8 @@ def handle_bgmi(message):
             target = command[1]
             port = int(command[2])  # Convert time to integer
             time = int(command[3])  # Convert port to integer
-            if time > 150:
-                response = "Error: FREE USERS ARE ALLOWED TO ATTACK ONLY FOR 150 SECONDS IF YOU NEED UNLIMITED TIME AND ATTACKS GET PREMIUM PAID ONE @dakkucheats."
+            if time > 241:
+                response = "Error: USERS ARE ALLOWED TO ATTACK ONLY FOR 240 SECONDS IF YOU NEED UNLIMITED TIME AND ATTACKS GET PREMIUM PAID ONE @dakkucheats."
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
